@@ -1,0 +1,64 @@
+body{
+    background-color: darkgrey;
+    height:100vh;
+    display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.container{
+	height:250px;
+}
+.black-keys,.white-keys{
+    display:flex;
+    margin:auto;
+    height:250px;
+    width: 42vw;
+}
+kbd{
+	display:inline-block;
+}
+.white{
+    background-color: white;
+    border:solid darkgray 1.8px;
+    max-height:100%;
+    width: 6vw;
+    font-size:20px;
+    text-align:center;
+    padding-top: 170px;
+}
+.black-keys{
+	position:relative;
+	top:-250px;
+	
+}
+
+.black{
+    background-color: black;
+    height:30%;
+	color:white;
+    width: 4vw;
+    font-size:20px;
+    text-align:center;
+	padding-top: 80px;
+  
+}
+.blackU{
+	position:absolute;
+	right:4vw
+}
+.blackY{
+	position:absolute;
+	right:10vw
+}
+.blackT{
+	position:absolute;
+	right:16vw
+}
+.blackW{
+	position:absolute;
+	left:4vw
+}
+.blackE{
+	position:absolute;
+	left:10vw
+}
